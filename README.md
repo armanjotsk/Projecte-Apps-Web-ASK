@@ -77,6 +77,7 @@ Después de ejecutar nos aparecerá la ip localhost 127.0.0.1/5000 o con el puer
 
 ### Estructura del protyecto:
 
+```
 APPSWEB_CINE-Armanjot/
 │
 ├── static/
@@ -95,3 +96,4 @@ APPSWEB_CINE-Armanjot/
 │
 ├── app.py                 # Codigo principal con flask
 └── database.py            # Funciones de conexión, encriptación y consultas MySQL
+```
