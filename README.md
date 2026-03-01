@@ -74,3 +74,24 @@ Por otro lado, la tabla resenas almacena el contenido y utiliza una Clave Forán
 ### 4. Ahora nos queda ejecutar la applicacion
 `python app.py`
 Después de ejecutar nos aparecerá la ip localhost 127.0.0.1/5000 o con el puerto que le hayamos establecido a nuestro ficher app.py. Tambien se recomienda establecer el debug=on para no tener que ir guardando los cambios cada vez que modoificamos algun fichero.
+
+### Estructura del protyecto:
+
+APPSWEB_CINE-Armanjot/
+│
+├── static/
+│   ├── imagenes/          # Pósters de las películas y favicon
+│   └── styles.css         # Hoja de estilos principal
+│
+├── templates/
+│   ├── base.html          # Plantilla padre con el menú de navegación
+│   ├── index.html         # Catalogo público (parte pública)
+│   ├── login.html         # Formulario de acceso
+│   ├── register.html      # Formulario de creación de cuenta
+│   ├── registro_correcto.html # Confirmación visual de registro
+│   ├── sala_criticas.html # Panel privado (panel de comunidad y usuario)
+│   ├── add_valoracion.html# Formulario para publicar reseñas (tercer formulario)
+│   └── portfolio.html     # Seccion "About me" con prácticas anteriores
+│
+├── app.py                 # Codigo principal con flask
+└── database.py            # Funciones de conexión, encriptación y consultas MySQL
